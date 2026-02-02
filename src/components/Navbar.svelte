@@ -86,7 +86,10 @@
         <div style="font-family: Museo-Sans, sans-serif;" class="flex my-auto  {scrolled?'':''}">
             <a href="/"  class="md:flex cursor-pointer hidden px-4 py-3  md:py-1 uppercase   text-sm hover:text-green-900">Home</a>
             <a href="/#about"  class="md:flex page-scroll cursor-pointer hidden px-4 py-3  md:py-1 uppercase   text-sm hover:text-green-900">About</a>
+            
             <a href="/#Curriculum"  class="md:flex page-scroll cursor-pointer hidden px-4 py-3  md:py-1 uppercase   text-sm hover:text-green-900">Curriculum</a>
+            <a href="/#mentors"  class="md:flex page-scroll cursor-pointer hidden px-4 py-3  md:py-1 uppercase   text-sm hover:text-green-900">Mentors</a>
+            
             <a href="/#Overview"  class="md:flex page-scroll cursor-pointer hidden px-4 py-3  md:py-1 uppercase   text-sm hover:text-green-900">Program Overview</a>
 
         </div>
@@ -136,9 +139,13 @@
                     <li on:click="{()=> menu_open = !menu_open }" class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 hover:scale-100 md:hidden flex">
                       <a href="/#Curriculum"  class="page-scroll cursor-pointer  font-bold uppercase ">Curriculum</a>
                     </li> 
+
+                    <li on:click="{()=> menu_open = !menu_open }" class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 hover:scale-100 md:hidden flex">
+                      <a href="/#mentors"  class="page-scroll cursor-pointer  font-bold uppercase ">Mentors</a>
+                    </li> 
+
                      <li on:click="{()=> menu_open = !menu_open }" class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 hover:scale-100 md:hidden flex">
-                      <a href="/#Overview"  class="page-scroll cursor-pointer  font-bold uppercase ">Program Overview
-</a>
+                      <a href="/#Overview"  class="page-scroll cursor-pointer  font-bold uppercase ">Program Overview</a>
                     </li> 
                    
                     
